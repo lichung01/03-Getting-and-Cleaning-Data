@@ -11,13 +11,12 @@ The following variables provide are identified to provide unique pair for each s
 	◦	Subject: the integer subject ID.
 	◦	Using a group of 30 volunteers (ID from 1 to 30)
 	◦	Activity: the string activity name:
-
-	◦	1	-	WALKING
-	◦	2	-	WALKING UPSTAIRS
-	◦	3	-	WALKING DOWNSTAIRS
-	◦	4	-	SITTING	
-	◦	5	-	STANDING
-	◦	6	-	LAYING
+		◦	1	-	WALKING
+		◦	2	-	WALKING UPSTAIRS
+		◦	3	-	WALKING DOWNSTAIRS
+		◦	4	-	SITTING	
+		◦	5	-	STANDING
+		◦	6	-	LAYING
 
 ### Data used for the study
 A full description is available at the site where the data was obtained:
@@ -53,10 +52,15 @@ The above zipped dataset includes the following files:
 The below files are being used for extracting, cleaning and combining to form a set of clean and tidy data.
 
 (1)	features 	-> 	x-test.txt
+
 (2)	activity 	->	y-test.txt
+
 (3)	subject	->	subject_test.txt
+
 (4)	features 	-> 	x-train.txt
+
 (5)	activity 	->	y-train.txt
+
 (6)	subject	->	subject_train.txt
 
 There are a total of 561 features, a total of 6 subjects and a number of dataset for activities.
@@ -66,13 +70,15 @@ The output cleaned data set will have the following data structure:
 ### Data Structure
 
 activity	-	activity labels (1-6) populated descriptive text
+
 subject	-	subjects from a pool of 30  (1-30)
+
 feature	-	list of 561 features
+
 value	-	combined test and train data set
 
 
-How it works
-How it works?
+### How it Works
 Step 1:  Unzip the dataset “UCI HAR Dataset.zip” to local directory.
 
 Step 2:  Download the script run_analysis.R to same local directory.
