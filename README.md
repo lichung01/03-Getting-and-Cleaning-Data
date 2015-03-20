@@ -15,7 +15,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The program performs the process to extract and clean the data from a set of raw data files identified in the CookBook. A clean and tidy dataset (tidydataset.txt) is produced as an output to allow for further analysis.
 
-### The Cookbook
+### The Codebook
 
 The CodeBook.md file explains how the transformations are performed and the variables used and the resulting data.
 
