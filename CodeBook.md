@@ -68,7 +68,7 @@ The output cleaned data set will have the following data structure:
 activity	-	activity labels (1-6) populated descriptive text
 subject	-	subjects from a pool of 30  (1-30)
 feature	-	list of 561 features
-value	-	combined text and train data set
+value	-	combined test and train data set
 
 
 How it works
