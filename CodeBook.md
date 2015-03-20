@@ -65,7 +65,7 @@ The below files are being used for extracting, cleaning and combining to form a 
 
 There are a total of 561 features, a total of 6 subjects and a number of dataset for activities.
 
-The output cleaned data set will have the following data structure:
+The output cleaned data set "tidy_dataset.txt" will have the following data structure:
 
 ### Data Structure
 
